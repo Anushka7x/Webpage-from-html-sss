@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                margin: 0px;
+                background-color:white;
+            }
+            .main{
+                width: 1250px;
+                height: auto;
+            }
+            .header{
+                position: fixed;
+                width: 1250px;
+                background-color:aliceblue;
+                height:90px;
+            }
+            .text h1{
+
+                float:left;
+            }
+            .navbar a{
+                font-size: 20px;
+                color: black;
+                margin-top: 20px;
+                padding: 15px;
+                float: right;
+                text-decoration: none;
+            }
+            .navbar a:hover{
+                
+                text-decoration: underline;
+            }
+
+            .content{
+                height: 800px;
+                background-color: aliceblue;
+            }
+            .T1 h1{
+                font-size: 50px;
+                margin: 0px ;
+                padding-top: 100px;
+                
+            }
+            .button a{
+                color: white;
+                text-decoration: none;
+                padding: 2px 10px;
+                background-color: black;
+            }
+            .food{
+                margin-left: auto;
+                margin-right: auto;
+                display: block;  
+                width: 900px;         
+            }
+            .belowcontent{
+                display: block;
+                width:1250px;
+                background-color: rgb(248, 223, 189);
+                height: 600px;
+
+            }
+            .food1{
+                width:100px;
+                padding-top:40px;
+                padding-left:180px;
+                float:left;
+                height:600px;
+            }
+            .T2{
+                
+                width:650px;
+                float:right;
+                height:600px;
+            }
+            .T2 h2{
+                padding-top: 10px;
+                padding-left: 100px;
+                padding-right: 90px;
+                text-align: justify;
+                font-size: 50px;
+            }
+            .T2 p{
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                padding-left: 100px;
+                padding-right: 100px;
+                padding-top: 10px;
+                font-size: 15px;
+                
+            }
+            
+            .button1 a{
+                float:right;
+                width: auto;
+                margin-left: 100px;
+                margin-right:450px;
+                background-color: black;
+                color: white;
+                padding: 10px 15px;
+                text-decoration: none;
+            }
+            .belowcontent1{
+                background-color: aliceblue;
+                height: 1000px;
+                display:block;
+            }
+            .T4 h2{
+                margin: 0px;
+                padding-top: 100px;
+                font-size: 50px;
+            }
+
+            .menu ul{
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                padding-left: 250px;
+                text-align:center ;         
+                list-style:none;
+                float: left;
+            }   
+            .menu1 ul{
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                list-style: none;
+                float: right;
+                padding-right:300px;
+            } 
+            .food3{
+                width: 100px;
+                padding-left: 350px;
+            }   
+            .belowcontent2{
+                display: block;
+                background-color:blanchedalmond;
+                height: 700px;
+            } 
+            .T5{
+                width: 100px;
+                height: 100px;
+                float: left;
+            }  
+            .T5 h2{
+                font-size: 50px;
+                padding-left: 95px;
+                padding-top: 150px;
+                margin-right: 10px;
+                width: 300px;
+            } 
+            .belowtext{
+                width: 350px;
+                
+                float: left;
+            } 
+            .belowtext p{
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                padding-top: 300px;
+                padding-left: 0px;
+                padding-right: 500px;
+                text-align: justify;
+                width: 400px;
+                float: left;
+            }
+            
+            .button2 a{
+                text-align: center;
+                float: left;
+                padding: 10px 20px;
+                width: 120px;
+                margin-right: 600px;
+                background-color: black;
+                color: white;
+                text-decoration: none;
+            }
+            .food4{
+                padding-top: 100px;
+                padding-left: 180px;
+                width: 300px;
+                float: left;
+            }    
+            .belowcontent3{
+                background-color: aliceblue;
+                width: 1250px;
+                height: 700px;
+            } 
+            .person{
+                float: left;
+                width: 100px;
+                height: 200px;
+                padding-left: 300px;
+                padding-top: 100px;
+            }
+            .text1{
+                width: 700px;
+                float: right;
+            }
+            .text1 p{
+		        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                padding-top: 100px;
+                padding-right: 220px;
+            }
+            .text1 h2{
+                width: 150px;
+                height: 100px;
+            }
+            .person2{
+                float: left;
+                width: 100px;
+                height: 200px;
+                padding-left: 300px;
+                padding-top: 50px;
+            }
+            .text2{
+                width:700px;
+                float: right;
+            }
+            .text2 p{
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                padding-right: 120px;
+            }
+            .belowcontent4{
+                background-color: blanchedalmond;
+                height: 300px;
+            }
+            
+            .bold h1{
+                margin: 0px;
+                padding-top: 50px;
+                font-size: 40px;
+            }
+            .button3{
+                padding-top: 40px;
+            }
+            .button3 a{
+                width: auto;
+                padding: 10px 20px;
+                background-color: black;
+                color: white;
+                text-decoration: none;
+            }
+            .footer{
+                background-color: aliceblue;
+                height: 350px;
+                width: 1250px;
+            }
+            .footerright{
+                float: left;
+            }
+            .footerright h3{
+                font-size: 30px;
+                margin: 0px;
+                padding-top: 100px;
+                padding-left: 100px;
+            }
+            .footerright p{
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                padding-left: 100px;
+            }
+            .footerleft{
+                float: right;
+            }
+            .footerleft h3{
+                font-size: 30px;
+                padding-top: 60px;
+                padding-right: 200px;
+            }
+            .footerleft p{
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                padding-top: 0px;
+            }
+
+            
+        </style>
+    </head>
+    <title>belton
+        
+    </title>
+    <body>
+    <div class="main">
+            
+            <div class="header">
+                <div class="text"><h1>Belton</h1>
+                </div>
+                    
+                <div class="navbar">
+                    <a href="#">Contact</a>
+                    <a href="#">Services</a>
+                    <a href="#">About</a>
+                    <a href="#">Home</a>
+                </div>
+                    
+                </div>
+            
+            
+        <div class="maincontent">
+            <div class="content">
+
+            <div class="T1">
+                <h1 align="center" >Bring people together with<br> great food</h1>
+            </div>
+            <div class="button"><br>
+                <div align="center">
+                    <a href="#">"let's talk"</a>
+                </div>
+            </div><br>
+            <div class="food">
+                <img src="food.png" width="900">
+            </div>
+            </div>
+            <div class="belowcontent">
+                <div class="food1">
+                    <img src="food2.png" width="400" height="500">
+                </div> 
+                <div class="T2">
+                    <h2>Delicious food<br>creates memories</h2><br>
+                     
+                        <p>Belton is food studio that not just caters out deliciousness,<br> but lives by the philosophy that nothing brings people<br> together like good food. Whatever the occasion that you<br> need our food for, whatever dietary requirements, we will make it happen.</p><br>
+                        <div class="button1"><br>
+                            <div>
+                                <a href="#">Our story</a>
+                            </div>
+                        </div>
+                    
+                </div>
+                 
+
+                
+                
+            </div>
+            <div class="belowcontent1">
+                <div class="T4">
+                    <h2 align="center">Our offers for your <br>occasion or event</h2>
+                </div>
+                <div class="menu" >
+                    <ul align="center">
+                        <li><h4>Mini pizzas</h4></li>
+                        <li><p>Delectable and bite-sized,mini pizzas are a<br> favorite of all groups.</p></li>
+                        <li><h4>Smoked Trout Empanadas</h4></li>
+                        <li><p>Every empanada is filled,<br> made, and cooked by hand</p></li>
+                        <li><h4>Homemade French Fries</h4></li>
+                        <li><p>Surprise your guests with the best <br>gourmet french fries they’ve ever tasted.</p></li>
+                    </ul>
+                </div>
+                <div class="menu1">
+                    <ul align="center">
+                        <li><h4>Stuffed Mushrooms</h4></li>
+                        <li><p>A kitchen classic, this is the<br> perfect choice if you’ve vegans in your party.</p></li>
+                        <li><h4>Mini lamb Burger</h4></li>
+                        <li><p>Although the flavors are slightly<br> unusual, guests always go for seconds.</p></li>
+                        <li><h4>Duck Confit Quesadillas</h4></li>
+                        <li><p>Sophistication and flavor come <br>together in this perfectly cheesy quesadilla.</p></li>
+                    </ul>
+
+                </div>
+                <div class="food3">
+                    <img src="food3.png" width="550" height="400">
+                </div>
+            </div>
+            <div class="belowcontent2">
+                <div class="T5">
+                    <h2>Our services</h2>
+                </div>
+                <div class="belowtext">
+                    <p>Here at Belton, we pride ourselves from never turning<br> down a client. That means whatever your occasion is,<br> no matter how many guests you’re trying to feed, <br>and no matter how restricted your diet, we will be happy<br> to serve you delicious food. </p><br>
+                    <div class="button2"><br>
+                        <div>
+                            <a href="#">See all services</a>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <div class="food4">
+                    <img src="food4.png" width="450" height="500">
+                </div>
+                
+            </div>
+            <div class="belowcontent3">
+                <div class="person">
+                    <img src="person1.png" width="150" height="200">
+                </div>
+                <div class="text1">
+                    <p>Belton went above and beyond when catering our wedding<br> at a highly unusual location. They were meticulous in every <br>stage: the planning, the preparation, and the execution. Our<br> guests couldn’t stop raving about all the delicious hors-d’oeuvres.</p>
+                    <div class="text1">
+                        <h2>Heather C.</h2>
+                    </div>
+                </div>
+                <div class="person2">
+                    <img src="person2.png" width="150" height="200">
+                </div>
+                <div class="text2">
+                    <p>My grandmother’s 90th birthday party was made special by<br> Belton – thank you ever so much. The team took into<br> consideration all of our food allergy requirements and<br> ensured that no detail was overlooked. Delicious food that I<br> highly recommend!</p>
+                    <div class="text1">
+                        <h2>Nathalie G.
+                        </h2>
+                    </div>
+                </div>
+
+            </div>
+            <div class="belowcontent4">
+                <div class="bold">
+                    <h1 align="center">First, we eat. Then we do everything else. Let<br>us take care of food at your special event.</h1>
+                </div>
+                <div class="button3" align="center">
+                    <a href="#">Get in touch</a>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="footerright">
+                    <h3>Belton Catering
+                    </h3>
+                    <p>We’re a catering business serving the Greater<br>Chicago area, and making sure your event is<br> remembered for all the delicious food.</p>
+                </div>
+                <div class="footerleft">
+                    <h3>Contacts</h3>
+                    <p>hello@belton.com<br>
+                        +5363-84635-837</p>
+
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    </body>
+</html>
